@@ -8,8 +8,8 @@ Select TWO Additional Features to Add
 [ no ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
 [ no ] Feature 3 - Animation
-[ no ] Feature 4 - Linear Gradient
-[ no ] Feature 5 - Use a .Gif
+[ YES ] Feature 4 - Linear Gradient
+[ YES ] Feature 5 - Use a .Gif
 [ no ] Feature 6 - Unique Border Styles
 -->
 
@@ -46,27 +46,35 @@ color: rgb(149, 6, 6);
 
 
 
-  #movie {
+  .movie {
     border: 15px red;
   border-radius: 15px;
   display: block;
   width: 500px;
-  padding: 10px;
-  margin: 15px;
+  padding: 2px;
+  margin: auto;
  
   
   }
 
+  h3 {
+    text-align: center;
+    color: rgb(100, 14, 57);
+  }
 .sss {
   background-image: linear-gradient(rgb(88, 79, 154),rgb(255, 45, 45),rgb(20, 17, 180) );
 color:transparent;
 background-clip: text;
 -webkit-background-clip: clip;
 background-color: aliceblue;
-
+text-align: center;
 
 }
 
+#merch {
+  font-style: italic;
+ 
+}
 
 
   </style>
@@ -80,8 +88,9 @@ background-color: aliceblue;
 
  <div>
   <div>
-<img id="movie" src="https://4kwallpapers.com/images/walls/thumbs_3t/24229.jpg">
- </div>
+<img class="movie" 
+src="https://4kwallpapers.com/images/walls/thumbs_3t/24229.jpg"> 
+  </div>
  </div>
 
  <span>
@@ -92,11 +101,13 @@ background-color: aliceblue;
 
  </div>
 </div>
-<img src="https://i.makeagif.com/media/3-26-2024/oIO0uQ.gif"
+<img 
+ class="movie" src="https://i.makeagif.com/media/3-26-2024/oIO0uQ.gif"
 width="500">
 
-<span ><h2 class="sss">we could also get this could merch that different theatres will sell when the movie comes out.</h2></span>
-<img src="https://preview.redd.it/all-the-movie-popcorn-drink-merch-from-on-twitter-v0-niiqq3p71pzf1.jpeg?width=1080&crop=smart&auto=webp&s=29a75772114fc2f55caa9c63f2751cab03febb01">
+<span ><h2 class="sss">we could also get this could <span id="merch">merch</span> that different theatres will sell when the movie comes out.</h2></span>
+<img 
+ class="movie" src="https://preview.redd.it/all-the-movie-popcorn-drink-merch-from-on-twitter-v0-niiqq3p71pzf1.jpeg?width=1080&crop=smart&auto=webp&s=29a75772114fc2f55caa9c63f2751cab03febb01">
 </body>
 </html>
 
